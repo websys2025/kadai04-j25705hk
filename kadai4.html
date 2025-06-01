@@ -50,6 +50,10 @@
                         console.log("id: " + item.id + ", name: " + item.name + ", " + item.price + "円, 残り" + item.stock + "個");
                     }// 配列の内容を項目毎に出力
                     console.log("商品は以下の" + list.length + "種類です。\n");// 課題4-1. ここにコードを書く
+                    for(let item of list){
+                    console.log("商品番号 : " + item.id + ", 商品名 : " + item.name + ", 金額 : " + item.price + ", 在庫数 : " + item.stock );
+                    }
+
                     console.log(""); // 空行の出力
                 }
                 
